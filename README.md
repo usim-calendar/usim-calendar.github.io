@@ -8,6 +8,4 @@
 https://calendar.usim.online/<订阅码>.ics
 ```
 
-## 反馈
-
-欢迎通过 [Issues](https://github.com/usim-calendar/usim-calendar.github.io/issues/new) 提交建议。
+订阅码请向服务提供者索取。欢迎通过 [Issues](https://github.com/usim-calendar/usim-calendar.github.io/issues/new) 提交建议。
