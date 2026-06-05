@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Us in Moments</title>
+  <style>
+    :root { --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+    .container { max-width: 640px; margin: 0 auto; padding: 40px 24px; flex: 1; }
+    header { text-align: center; padding: 60px 0 20px; }
+    h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+    h1 span { color: var(--accent); }
+    .tagline { color: var(--muted); font-size: 15px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px; }
+    .card h2 { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+    .card p, .card li { font-size: 14px; color: var(--muted); margin-bottom: 4px; }
+    .card ul { padding-left: 20px; }
+    .card code { background: #1c2128; padding: 1px 6px; border-radius: 4px; color: var(--accent); font-size: 13px; }
+    .card a { color: var(--accent); }
+    .btn { display: inline-block; padding: 10px 24px; background: var(--accent); color: #fff; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 500; }
+    footer { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><span>Us in</span> Moments</h1>
+    <p class="tagline">手机日历订阅服务</p>
+  </header>
+  <div style="text-align:center;margin-bottom:32px;">
+    <a href="https://calendar.usim.online/" class="btn">服务首页</a>
+  </div>
+  <div class="card">
+    <h2>使用方式</h2>
+    <p>将以下地址添加到手机日历的订阅功能：</p>
+    <p><code>https://calendar.usim.online/&lt;订阅码&gt;.ics</code></p>
+    <p style="margin-top:8px;">订阅码请向服务提供者索取。</p>
+  </div>
+  <div class="card">
+    <h2>支持内容</h2>
+    <ul>
+      <li>农历日期</li>
+      <li>中国法定节假日</li>
+      <li>中国传统节日</li>
+      <li>多国节假日</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>反馈</h2>
+    <p>欢迎在 <a href="https://github.com/usim-calendar/usim-calendar.github.io/issues/new">GitHub Issues</a> 提交建议。</p>
+  </div>
+  <footer>
+    <p>&copy; 2025-2026 Us in Moments</p>
+  </footer>
+</div>
+</body>
+</html>
